@@ -1,0 +1,96 @@
+﻿@using Microsoft.AspNetCore.Components
+
+<style>
+    .move-list {
+        margin: 20px 0px;
+    }
+
+    .index-box {
+        padding: 5px 8px;
+        color: #898989;
+        background-color: #2e2e2e;
+    }
+
+    .move-box {
+        padding: 5px 8px;
+        color: #deedfb;
+        background-color: #242424;
+    }
+</style>
+
+
+<div class="chess-controls">
+    <ul class="list-group text-white-50 move-list">
+        @foreach (var movePair in MovePairs)
+        {
+            <li class="row">
+                <div class="col-md-1 index-box">1</div>
+                <div class="col move-box">
+                    @movePair.Item1
+                </div>
+                <div class="col move-box">
+                    @movePair.Item2
+                </div>
+            </li>
+        }
+    </ul>
+    <button class="btn btn-dark" @onclick="GoToFirstMove">|&lt;</button>
+    <button class="btn btn-dark" @onclick="GoToPreviousMove">&lt;</button>
+    <button class="btn btn-dark" @onclick="GoToNextMove">&gt;</button>
+    <button class="btn btn-dark" @onclick="GoToLastMove">&gt;|</button>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback OnFirstMove { get; set; }
+
+    [Parameter]
+    public EventCallback OnPreviousMove { get; set; }
+
+    [Parameter]
+    public EventCallback OnNextMove { get; set; }
+
+    [Parameter]
+    public EventCallback OnLastMove { get; set; }
+
+    private Task GoToFirstMove() => OnFirstMove.InvokeAsync();
+
+    private Task GoToPreviousMove() => OnPreviousMove.InvokeAsync();
+
+    private Task GoToNextMove() => OnNextMove.InvokeAsync();
+
+    private Task GoToLastMove() => OnLastMove.InvokeAsync();
+
+    [Parameter]
+    public List<(String, String)>? MovePairs { get; set; }
+
+    private String computeFEN(String fen, String move)
+    {
+        var fenParts = fen.Split(" ");
+		var board = fenParts[0];
+		var from = move.Substring(0, 2);
+		var to = move.Substring(2, 2);
+		var piece = board[8 * (8 - int.Parse(from[1].ToString())) + (int.Parse(from[0].ToString()) - 1)];
+		var newBoard = board.Replace(piece, '1');
+		newBoard = newBoard.Replace('1', '0');
+		newBoard = newBoard.Remove(8 * (8 - int.Parse(to[1].ToString())) + (int.Parse(to[0].ToString()) - 1), 1);
+		newBoard = newBoard.Insert(8 * (8 - int.Parse(to[1].ToString())) + (int.Parse(to[0].ToString()) - 1), piece.ToString());
+		return newBoard;
+    }
+
+    private List<(string, string)> computeMoveFENPairs(List<(string, string)>? MovePairs)
+    {
+        var fen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
+		var moveFenPairs = new List<(string, string)>();
+        moveFenPairs.Add(("", fen));
+		foreach (var movePair in MovePairs)
+		{
+			fen = computeFEN(fen, movePair.Item1);
+            moveFenPairs.Add((movePair.Item1, fen));
+			fen = computeFEN(fen, movePair.Item2);
+            moveFenPairs.Add((movePair.Item2, fen));
+		}
+		return moveFenPairs;
+	
+    }
+}

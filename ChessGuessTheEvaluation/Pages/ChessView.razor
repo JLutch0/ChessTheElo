@@ -1,0 +1,52 @@
+﻿<style>
+	.chess-board-container {
+	}
+
+	.chess-controls-container {
+	}
+</style>
+
+<div class="row justify-content-md-center">
+	<div class="col col-md-5 chess-board-container">
+		<ChessBoard Fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" />
+	</div>
+	<div class="col col-md-3 chess-controls-container">
+		<ChessControls OnFirstMove="@HandleFirstMove"
+					   OnPreviousMove="@HandlePreviousMove"
+					   OnNextMove="@HandleNextMove"
+					   OnLastMove="@HandleLastMove"
+					   MovePairs=@MovePairs />
+	</div>
+</div>
+
+@code {
+	private void HandleFirstMove()
+	{
+		//throw new NotImplementedException();
+	}
+
+	private void HandlePreviousMove()
+	{
+		//throw new NotImplementedException();
+	}
+
+	private void HandleNextMove()
+	{
+		//throw new NotImplementedException();
+	}
+
+	private void HandleLastMove()
+	{
+		//throw new NotImplementedException();
+	}
+
+	private List<(String, String)> MovePairs = new List<(String, String)>(){("e4", "e5")};
+
+	private List<(String, String)>? loadMovePairs()
+	{
+		return new List<(String, String)>()
+		{
+			("e4", "e5")
+		};
+	}
+}

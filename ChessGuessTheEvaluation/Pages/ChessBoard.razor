@@ -1,0 +1,139 @@
+﻿@using Microsoft.AspNetCore.Components
+@using System.Collections.Generic
+
+<style type="text/css">
+
+    .chess-board {
+        width: 640px;
+        height: 640px;
+        margin: 20px;
+    }
+    
+    .dark {
+        float: left;
+        width: 80px;
+        height: 80px;
+        background-color: #b58863;
+        font-size: 50px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .light {
+        float: left;
+        width: 80px;
+        height: 80px;
+        background-color: #f0d9b5;
+        font-size: 50px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+</style>
+
+<div class="row">
+    <div class="col-xs-8 col-sm-4 col-md-5 col-lg-3 chess-board">
+        @foreach (var row in Board)
+        {
+            <div class="row">
+                @foreach (var square in row)
+                {
+                    <div class="col-xs-1 col-sm-1 col-md-1 @square.Color" align="center">
+                        @if (square.Piece != null)
+                        {
+                            <img src="@pieceToImg[square.Piece ?? default(char)]" />
+                        }
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Fen { get; set; }
+
+    private List<List<ChessSquare>>? Board { get; set; }
+
+    private Dictionary<char, String> pieceToImg = new Dictionary<char, string>()
+    {
+        {'b',"/cburnett/bB.svg"},
+        {'k',"/cburnett/bK.svg"},
+        {'n',"/cburnett/bN.svg"},
+        {'p',"/cburnett/bP.svg"},
+        {'q',"/cburnett/bQ.svg"},
+        {'r',"/cburnett/bR.svg"},
+        {'B',"/cburnett/wB.svg"},
+        {'K',"/cburnett/wK.svg"},
+        {'N',"/cburnett/wN.svg"},
+        {'P',"/cburnett/wP.svg"},
+        {'Q',"/cburnett/wQ.svg"},
+        {'R',"/cburnett/wR.svg"}
+    };
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        ParseFen();
+    }
+
+    private void ParseFen()
+    {
+        Board = new List<List<ChessSquare>>();
+
+        if (string.IsNullOrWhiteSpace(Fen))
+        {
+            Fen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+        }
+
+        var fenParts = Fen.Split(' ');
+        var fenRows = fenParts[0].Split('/');
+
+        int rowIdx = 0;
+        foreach (var fenRow in fenRows)
+        {
+            var row = new List<ChessSquare>();
+            int colIdx = 0;
+            foreach (var character in fenRow)
+            {
+                if (char.IsDigit(character))
+                {
+                    var emptySquares = int.Parse(character.ToString());
+                    for (int i = 0; i < emptySquares; i++)
+                    {
+                        row.Add(new ChessSquare(null, rowIdx, colIdx++));
+                    }
+                }
+                else
+                {
+                    row.Add(new ChessSquare(character, rowIdx, colIdx++));
+                }
+            }
+            Board.Add(row);
+            rowIdx++;
+        }
+    }
+
+    public class ChessSquare
+    {
+        public ChessSquare(char? piece, int row, int column)
+        {
+            Row = row;
+            Column = column;
+            Piece = piece;
+        }
+
+        public char? Piece { get; }
+        public string Color => (Row + Column) % 2 == 0 ? "light" : "dark";
+        public int Row { get; } = -1;
+        public int Column { get; } = -1;
+    }
+}

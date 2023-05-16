@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = ChessGuessTheEvaluation
+build_property.RootNamespace = ChessGuessTheEvaluation
+build_property.ProjectDir = C:\Users\terri\source\repos\ChessGuessTheEvaluation\ChessGuessTheEvaluation\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\terri\source\repos\ChessGuessTheEvaluation\ChessGuessTheEvaluation
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Pages/ChessBoard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlc3NCb2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Pages/ChessControls.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlc3NDb250cm9scy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Pages/ChessView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlc3NWaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-e8jiwfhk0f
+
+[C:/Users/terri/source/repos/ChessGuessTheEvaluation/ChessGuessTheEvaluation/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9aoyjw1dt7
