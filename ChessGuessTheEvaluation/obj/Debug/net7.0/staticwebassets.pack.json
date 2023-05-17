@@ -1,127 +1,127 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\obj\\Debug\\net7.0\\build-gz\\i4cVjFxJ.gz",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\obj\\Debug\\net7.0\\build-gz\\WcEhdBZh.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ChessGuessTheEvaluation.styles.css",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ChessGuessTheEvaluation.styles.css",
       "PackagePath": "staticwebassets\\ChessGuessTheEvaluation.styles.css"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bB.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bB.svg",
       "PackagePath": "staticwebassets\\cburnett\\bB.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bK.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bK.svg",
       "PackagePath": "staticwebassets\\cburnett\\bK.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bN.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bN.svg",
       "PackagePath": "staticwebassets\\cburnett\\bN.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bP.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bP.svg",
       "PackagePath": "staticwebassets\\cburnett\\bP.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bQ.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bQ.svg",
       "PackagePath": "staticwebassets\\cburnett\\bQ.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bR.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\bR.svg",
       "PackagePath": "staticwebassets\\cburnett\\bR.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wB.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wB.svg",
       "PackagePath": "staticwebassets\\cburnett\\wB.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wK.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wK.svg",
       "PackagePath": "staticwebassets\\cburnett\\wK.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wN.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wN.svg",
       "PackagePath": "staticwebassets\\cburnett\\wN.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wP.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wP.svg",
       "PackagePath": "staticwebassets\\cburnett\\wP.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wQ.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wQ.svg",
       "PackagePath": "staticwebassets\\cburnett\\wQ.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wR.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\cburnett\\wR.svg",
       "PackagePath": "staticwebassets\\cburnett\\wR.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\terri\\source\\repos\\ChessGuessTheEvaluation\\ChessGuessTheEvaluation\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Jonathan L\\Desktop\\Code\\ChessTheElo\\ChessGuessTheEvaluation\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
